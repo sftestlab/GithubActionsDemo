@@ -25,4 +25,4 @@ jobs:
             --name StorageAccountDeployment \
             --resource-group GitHub \
             --template-file add_sa.json \
-            --template-file add_sa.parameters.json
+            --parameters add_sa.parameters.json
